@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    background-image: url("images (1).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.photo_main{
+    height: 100%;
+    width: 100%;
+}
+.container, .form-control, h2, .card, footer {
+    position: relative;
+    z-index: 1;
+}
+
+form input, form button {
+    max-width: 600px;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
